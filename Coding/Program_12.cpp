@@ -49,7 +49,7 @@ int main()
     return 0;
 }
 
-/*int check(int &e, int &f)
+int check(int &e, int &f)
 {
     while ( e <= 0 || f <= 0)
     {
@@ -57,7 +57,7 @@ int main()
        cin>>e>>f; 
     }
     return 0;
-}*/
+}
 
 int display(int show[][10], int a, int b)
 {
@@ -78,7 +78,7 @@ int input(char choice)
     check(a, b);
     cout << "Input the Rows and Column for Second Matrix :\n";
     cin >> c >> d;
-    // check(c, d);
+    check(c, d);
     choice = toupper(choice);
     switch (choice)
     {

@@ -4,7 +4,6 @@ from file and display them. */
 
 
 #include <iostream>
-#include <conio.h>
 #include <fstream>
 #include <cstring>
 #include <string.h>
